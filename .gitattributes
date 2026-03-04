@@ -1,0 +1,2 @@
+# Treat draw.io files as binary to avoid merge conflicts on XML
+*.drawio binary

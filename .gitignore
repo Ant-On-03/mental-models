@@ -1,0 +1,8 @@
+# draw.io exported image files (optional; track only source .drawio files)
+*.png
+*.svg
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
