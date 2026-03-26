@@ -6,6 +6,9 @@ A showcase of draw.io diagrams created over time to understand concepts further,
 
 ## Diagrams
 
+### 0. 
+![Dessign Patterns For Dummies](PatronesDeDiseñoParaTontos.drawio.svg)
+
 ### 1. Asynchronous Queue Flow → DuckDB
 
 ![Async Queue Flow to DuckDB](AsyncronousQueueFlow-%3EDuckDB.drawio.svg)
