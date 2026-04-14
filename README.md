@@ -50,7 +50,7 @@ A conceptual diagram showing how to transform a **Python asynchronous process in
 
 ![Async Queue Flow to DuckDB](AsyncronousQueueFlow-%3EDuckDB.drawio.svg)
 
-A concrete implementation strategy for converting an **asynchronous flow into a linear (serialized) process** when writing to DuckDB. Because DuckDB does not support concurrent writes, this diagram illustrates a Singleton `QueueManager` pattern where async handlers submit work and then await a lock before writing. A session wrapper handles `__enter__` / `__exit__` for safe context-managed access.
+A concrete implementation strategy for converting an **asynchronous flow into a linear (serialized) process** when writing to DuckDB. Because DuckDB does not support concurrent writes, this diagram illustrates a Singleton `QueueManager` pattern where async handlers (`STARLORD` and `DRAX`) submit work and then await a lock before writing. A `UserSheetSession` class wraps the DuckDB connection, exposing `__enter__` / `__exit__` for safe context-managed access.
 
 ---
 
