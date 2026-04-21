@@ -6,14 +6,6 @@ A showcase of draw.io diagrams created over time to understand concepts further,
 
 ## Diagrams
 
-### 0. Esquema Sapiencial
-
-![Esquema Sapiencial](esquemaSapiencial.png)
-
-A high-level knowledge map (*esquema sapiencial*) that connects domains of learning and reasoning. It serves as a meta mental model for organizing ideas before moving into concrete software and architecture patterns.
-
----
-
 ### 1. Design Patterns for Dummies
 
 ![Design Patterns For Dummies](PatronesDeDiseñoParaTontos.drawio.svg)
@@ -22,19 +14,19 @@ A quick visual reference of core software design patterns and how they relate. I
 
 ---
 
-### 2. Strategy Pattern + Jackson Serialization Pattern
-
-![Strategy Pattern + Jackson Serialization Pattern](StrategyPattern+JacksonSerializationPattern.drawio.svg)
-
-A focused model of combining behavioral design (Strategy) with robust JSON serialization/deserialization using Jackson. It highlights how runtime behavior selection and data mapping can coexist cleanly in the same design.
-
----
-
-### 3. Puerto-Adaptador (DDD / Hexagonal)
+### 2. Puerto-Adaptador (DDD / Hexagonal)
 
 ![Puerto Adaptador DDD](PuertoAdaptador-DDD.drawio.svg)
 
 A domain-driven architecture view using Port-Adapter (Hexagonal) principles. It emphasizes separation between domain logic and infrastructure adapters so business rules stay isolated, testable, and technology-agnostic.
+
+---
+
+### 3. Strategy Pattern + Jackson Serialization Pattern
+
+![Strategy Pattern + Jackson Serialization Pattern](StrategyPattern+JacksonSerializationPattern.drawio.svg)
+
+A focused model of combining behavioral design (Strategy) with robust JSON serialization/deserialization using Jackson. It highlights how runtime behavior selection and data mapping can coexist cleanly in the same design.
 
 ---
 
@@ -85,3 +77,11 @@ A UML class diagram for a **file-processing pipeline** (internally named *Rocket
 - **`FileStatusType`** (enum) – `QUEUED → IN_PROGRESS → COMPLETED / FAILED / CANCELED`.
 - **`SchemaState`** / **`SchemaId`** – track which schema version a file is associated with and whether it has been processed.
 - **`NewSchemaInfo`** – carries the old and new schema UIDs during a schema migration event.
+
+---
+
+### 9. Esquema Sapiencial
+
+![Esquema Sapiencial](esquemaSapiencial.png)
+
+A high-level knowledge map (*esquema sapiencial*) that connects domains of learning and reasoning. It serves as a meta mental model for organizing ideas before moving into concrete software and architecture patterns.
