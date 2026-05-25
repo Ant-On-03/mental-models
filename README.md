@@ -1,6 +1,6 @@
 # Technical Visual Wiki
 
-Welcome to my technical visual wiki. This repository showcases various technical diagrams i made covering software architecture, data engineering, AI agents, and workflows.
+Welcome to my technical visual wiki. This repository showcases various technical diagrams I made covering software architecture, data engineering, AI agents, and workflows. The purpose of this is helping myself learn through the making of mental models.
 
 ## Directory Index
 
